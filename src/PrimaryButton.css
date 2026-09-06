@@ -1,0 +1,18 @@
+.primary-btn {
+  display: inline-flex;
+  padding: var(--spacing-tight) var(--spacing-defualt);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-tight);
+  border-radius: var(--radius-chip);
+  border: var(--stroke-weight-sm) solid var(--color-border-primary);
+  background: var(--color-surface-secondary);
+  color: var(--color-text-inverted);
+
+  /* subheading */
+  font-family: Coolvetica;
+  font-size: var(--font-Size-500);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
