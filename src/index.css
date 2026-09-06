@@ -44,7 +44,7 @@ body {
   --stroke-weight-lg: 4px;
   --color-blue-100: #a6bfc8;
   --spacing-tight: var(--spacing-1);
-  --spacing-defualt: var(--spacing-2);
+  --spacing-default: var(--spacing-2);
   --spacing-loose: var(--spacing-4);
   --spacing-section: var(--spacing-5);
   --spacing-stack: var(--spacing-6);
@@ -77,12 +77,6 @@ body {
   --columns: var(--spacing-3);
   --gutter: var(--spacing-5);
   --margin: var(--spacing-8);
-}
-
-.grid--mode-2 {
-  --columns: 0;
-  --gutter: 0;
-  --margin: 0;
 }
 
 @font-face {
