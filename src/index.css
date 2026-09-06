@@ -1,3 +1,107 @@
+
 body {
   margin: 0;
+}
+:root {
+  --TRUE: 1;
+  --FALSE: 0;
+  --color-yellow-800: #faa93d;
+  --color-grey-600: #8b8a8a;
+  --color-yellow-200: #ffca83;
+  --color-green-700: #174a44;
+  --color-orange-900: #ff5c1c;
+  --color-orange-700: #ff7944;
+  --color-green-500: #2b8e82;
+  --color-blue-300: #709db3;
+  --color-grey-100: #efefef;
+  --color-grey-200: #dfdfdf;
+  --color-white: #ffffff;
+  --color-grey-950: #2a2a2a;
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 24px;
+  --spacing-6: 32px;
+  --spacing-7: 64px;
+  --spacing-8: 80px;
+  --font-family-coolvetica: "coolvetica";
+  --font-family-inter: "inter";
+  --font-size-100: 12px;
+  --font-size-200: 14px;
+  --font-size-300: 16px;
+  --font-size-400: 18px;
+  --font-size-500: 20px;
+  --font-size-600: 24px;
+  --font-size-700: 30px;
+  --font-size-800: 36px;
+  --font-size-900: 48px;
+  --font-size-1000: 60px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --stroke-weight-sm: 2px;
+  --stroke-weight-lg: 4px;
+  --color-blue-100: #a6bfc8;
+  --spacing-tight: var(--spacing-1);
+  --spacing-defualt: var(--spacing-2);
+  --spacing-loose: var(--spacing-4);
+  --spacing-section: var(--spacing-5);
+  --spacing-stack: var(--spacing-6);
+  --color-surface-primary: var(--color-white);
+  --color-surface-secondary: var(--color-green-700);
+  --color-surface-input: var(--color-grey-100);
+  --color-surface-secondary-hover: var(--color-green-500);
+  --text-font-heading: var(--font-family-coolvetica);
+  --text-font-body: var(--font-family-inter);
+  --color-status-hazard: var(--color-orange-900);
+  --color-status-selected: var(--color-blue-300);
+  --color-status-unselected: var(--color-grey-600);
+  --text-size-h1: var(--font-size-900);
+  --text-size-h3: var(--font-size-600);
+  --text-size-body: var(--font-size-300);
+  --radius-chip: var(--radius-md);
+  --radius-card: var(--radius-lg);
+  --color-border-primary: var(--color-grey-950);
+  --text-size-caption: var(--font-size-200);
+  --color-status-hazard-hover: var(--color-orange-700);
+  --color-status-selected-hover: var(--color-blue-100);
+  --color-text-primary: var(--color-grey-950);
+  --color-text-disabled: var(--color-grey-600);
+  --color-text-inverted: var(--color-white);
+  --weight-border-default: var(--stroke-weight-sm);
+  --weight-border-markers: var(--stroke-weight-lg);
+}
+
+.grid--desktop {
+  --columns: var(--spacing-3);
+  --gutter: var(--spacing-5);
+  --margin: var(--spacing-8);
+}
+
+.grid--mode-2 {
+  --columns: 0;
+  --gutter: 0;
+  --margin: 0;
+}
+
+@font-face {
+  font-family: 'coolvetica';
+  src: url('./assets/fonts/Coolvetica_Rg.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'coolvetica';
+  src: url('./assets/fonts/Coolvetica_Rg_It.otf') format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'coolvetica';
+  src: url('./assets/fonts/Coolvetica_Hv_Comp.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
 }
