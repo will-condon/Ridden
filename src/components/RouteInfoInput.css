@@ -1,0 +1,40 @@
+.route-info-input {
+  display: flex;
+  width: 455px;
+  padding: var(--spacing-loose);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-loose); 
+  border-radius: var(--radius-card);
+  border: var(--stroke-weight-sm) solid var(--color-border-primary);
+  background: var(--color-surface-primary);
+}
+
+.route-info-title {
+color:var(--color-text-primary);
+font-family: var(--font-family-coolvetica);
+font-size: var(--text-size-h3);
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin:0;
+}
+
+.tags-container {
+display: flex;
+align-items: center;
+align-content: center;
+gap:var(--spacing-default);
+align-self: stretch;
+flex-wrap: wrap;
+}
+
+.description-textfield {
+height: 73px;
+padding: var(--spacing-default);
+align-self: stretch;
+border-radius: var(--radius-md);
+border: var(--stroke-weight-sm) solid var(--color-border-primary);
+background: var(--color-surface-input);
+resize: none;
+}

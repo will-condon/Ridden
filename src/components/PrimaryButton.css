@@ -1,6 +1,6 @@
 .primary-btn {
   display: inline-flex;
-  padding: var(--spacing-tight) var(--spacing-defualt);
+  padding: var(--spacing-tight) var(--spacing-default);
   justify-content: center;
   align-items: center;
   gap: var(--spacing-tight);
