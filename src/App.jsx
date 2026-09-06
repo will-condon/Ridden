@@ -1,5 +1,5 @@
 import Chip from './components/Chip.jsx';
-import PrimaryButton from './PrimaryButton.jsx';
+import PrimaryButton from './components/PrimaryButton.jsx';
 
 function App() {
   return (

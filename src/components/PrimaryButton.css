@@ -10,9 +10,13 @@
   color: var(--color-text-inverted);
 
   /* subheading */
-  font-family: Coolvetica;
+  font-family: var(--text-font-heading);
   font-size: var(--font-Size-500);
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.primary-btn:hover {
+  background: var(--color-surface-secondary-hover);
 }
